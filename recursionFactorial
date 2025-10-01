@@ -1,0 +1,14 @@
+  let factData = 6
+   
+   function fact(n){    
+     if(n == 0){
+       return 
+     }
+
+     factData = n * factData 
+
+      fact(n-1)
+   }
+
+    fact(factData - 1)
+  console.log(factData);  
