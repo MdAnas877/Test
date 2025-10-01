@@ -1,0 +1,13 @@
+  let data = [10,20,30,40,50]
+    let reverse = []
+   
+   function fact(length){    
+        reverse[reverse.length] = data[length]
+     if(length == 0){
+       return 
+     }
+      fact(length-1)
+   }
+
+  let getData = fact(data.length-1)
+  console.log(reverse);  
